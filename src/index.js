@@ -2,12 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 class App extends React.Component {
-  constructor(props) {
+  //first method
+ /*  constructor(props) {
     super(props);
     this.state = {lat: 40, errMessage:''};
-    
-   
-  }  
+  }   */
+//just state not this.state
+//2nd method.
+  state = {lat : null, errMessage: ''};
 
   componentDidMount(){
     window.navigator.geolocation.getCurrentPosition(
