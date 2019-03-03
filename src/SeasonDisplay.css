@@ -17,6 +17,13 @@
     height: 100vh;
 }
 
+.season-display.winter i {
+    color: blue;
+}
+
+.season-display.summer i {
+    color: red;
+}
 .summer {
  background-color: orange;
 }
